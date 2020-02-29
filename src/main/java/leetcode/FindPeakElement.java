@@ -6,7 +6,7 @@ package leetcode;
  */
 public class FindPeakElement {
     public static void main(String[] args) {
-
+        
     }
     public static int findPeakElement(int[] nums) {
         int left = 0;
