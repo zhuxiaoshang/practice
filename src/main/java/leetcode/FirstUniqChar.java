@@ -16,6 +16,7 @@ public class FirstUniqChar {
                 return i;
             }
 
+
         }
         return -1;
     }
