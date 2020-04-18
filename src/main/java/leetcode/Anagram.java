@@ -2,6 +2,7 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * 有效的字母异位词，LeetCode242
@@ -10,6 +11,7 @@ public class Anagram {
     public static void main(String[] args) {
         String s = "ac", t = "bb";
         System.out.println(isAnagram(s,t));
+
     }
     //1.暴力法
     public static boolean isAnagram1(String s, String t) {
